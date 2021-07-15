@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.adminPageWrapper {
+  display: flex;
+  width: 100%;
+  padding: 2% 2%;
+}
+
+.tableWrapper {
+  width: 65%;
+}
+
+.searchBar {
+  width: 100px;
+  outline: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.searchBar input {
+  padding: 8px;
+  border-radius: 20px;
+  padding-left: 40px;
+  outline: none;
+}
+.searchBar i {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  z-index: 100;
+}
+
+.CustomtableWrapper {
+  width: 100%;
+}
+
+.Customtable {
+  width: 100%;
+}
+.Customtable,
+tr,
+td,
+th {
+  border-collapse: collapse;
+  padding: 15px;
+}
+.Customtable thead tr th {
+  background-color: black;
+  color: white;
+}
+
+.tableBody {
+  display: block;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.Customtable thead,
+.Customtable tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.Customtable thead tr :first-child {
+  border-top-left-radius: 10px;
+}
+.Customtable thead tr :last-child {
+  border-top-right-radius: 10px;
+}
+
+.Customtable tbody tr:nth-child(even) {
+  background-color: rgba(204, 204, 204, 0.692);
+}
+
+.tableRowsmall {
+  cursor: pointer;
+}
+
+.tableRowsmallwithBorder {
+  border: 3px solid red;
+}
+
+.DetailsWrapper {
+  width: 35%;
+  margin-top: 50px;
+  padding-left: 10px;
+}
+
+.detailsInfoWrapperVisible {
+  visibility: visible;
+}
+
+.detailsInfoWrapperInvisible {
+  visibility: hidden;
+}
+
+.descriptionDetails {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.dynamicDatatext {
+  font-weight: 400;
+}
